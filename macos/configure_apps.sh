@@ -4,7 +4,7 @@ source ./macos/output_tools.sh
 
 function init() {
   curl -o /tmp/dockutil https://raw.githubusercontent.com/kcrawford/dockutil/master/scripts/dockutil
-  curl -Lo /tmp/omf.fish https://get.oh-my.fish
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
   git clone --depth=1 https://github.com/kerma/defaultbrowser /tmp/defaultbrowser
   make -C /tmp/defaultbrowser
 
@@ -234,9 +234,9 @@ function setup_daisydisk() {
 }
 
 init # Must be first
-set_fish_default_shell
+#set_fish_default_shell
 setup_ruby
-setup_fish
+#setup_fish
 setup_weechat
 setup_bettertouchtool
 setup_bartender
