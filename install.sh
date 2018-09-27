@@ -19,11 +19,11 @@ function main() {
 ##
 
 # 'sudo systemsetup -listtimezones' for other values
-export CONF_TIMEZONE=${CONF_TIMEZONE:="America/Los_Angeles"}
+export CONF_TIMEZONE=${CONF_TIMEZONE:="Pacific/Honolulu"}
 export CONF_CURRENCY=${CONF_CURRENCY:="EUR"}
 export CONF_COMPUTER_NAME=${CONF_COMPUTER_NAME:="MacbookPro"}
-export CONF_GIT_DOTFILES_REPO=${CONF_GIT_DOTFILES_REPO:="https://github.com/Antonito/dotfiles"}
-export CONFIG_WALLPAPER_URL=${CONFIG_WALLPAPER_URL:="https://wallpaper.wiki/wp-content/uploads/2017/05/Retina-Great-Nature-Wallpapers-HD.jpg"}
+export CONF_GIT_DOTFILES_REPO=${CONF_GIT_DOTFILES_REPO:="https://github.com/lokoum/dotfiles"}
+export CONFIG_WALLPAPER_URL=${CONFIG_WALLPAPER_URL:="https://wallpaper.wiki/wp-content/uploads/2017/10/download.png"}
 
 ##
 ## Functions
