@@ -240,7 +240,7 @@ setup_ruby
 setup_weechat
 setup_bettertouchtool
 setup_bartender
-setup_dash
+#setup_dash
 setup_skype_for_business
 setup_git
 setup_gdb
