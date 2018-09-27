@@ -10,7 +10,7 @@ brew "watchman"
 brew "zsh"
 brew "docker-completion"
 brew "m-cli"
-breww "pass"
+brew "pass"
 brew "tmux"
 #brew "weechat", args: ["with-aspell", "with-curl", "with-python@2", "with-perl", "with-ruby", "with-lua", "with-guile"]
 
