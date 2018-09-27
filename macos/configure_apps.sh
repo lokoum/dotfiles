@@ -248,11 +248,11 @@ setup_caprine
 #setup_spark
 setup_neovim
 setup_vscode
-setup_atom
+#setup_atom
 setup_iterm
-setup_chrome
+#setup_chrome
 setup_docker
 #setup_boom3d
-setup_daisydisk
+#setup_daisydisk
 setup_dock
 deinit  # Must be last
